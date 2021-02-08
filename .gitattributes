@@ -13,6 +13,7 @@
 *.physicsMaterial2D -text merge=unityyamlmerge diff
 *.playable -text merge=unityyamlmerge diff
 *.mask -text merge=unityyamlmerge diff
+*.brush -text merge=unityyamlmerge diff
 *.flare -text merge=unityyamlmerge diff
 *.fontsettings -text merge=unityyamlmerge diff
 *.guiskin -text merge=unityyamlmerge diff
