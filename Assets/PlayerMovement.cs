@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     public CharacterController controller;
 
     public float speed = 12f;
@@ -16,17 +15,19 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundMask;
 
     Vector3 velocity;
+    Vector3 move;
+
+    private float x;
+    private float z;
 
     bool isGrounded = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("b"))
+        {
+            Debug.Log(x);
+        }
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -35,20 +36,33 @@ public class PlayerMovement : MonoBehaviour
             velocity.y = -5f;
         }
 
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        GetSmoothAxisRaw("Horizontal", ref x);
+        GetSmoothAxisRaw("Vertical", ref z);
 
-        Vector3 move = transform.right * x + transform.forward * z;
+        move = transform.right * x + transform.forward * z;
 
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(move * speed * Time.unscaledDeltaTime);
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity); 
         }
 
-        velocity.y += gravity * Time.deltaTime;
+        velocity.y += gravity * Time.unscaledDeltaTime;
 
-        controller.Move(velocity * Time.deltaTime);
+        controller.Move(velocity * Time.unscaledDeltaTime);
+    }
+    private void GetSmoothAxisRaw(string name, ref float axis)
+    {
+        var r = Input.GetAxisRaw(name);
+
+        if (r != 0)
+        {
+            axis = Mathf.Clamp(axis + r * 5 * Time.unscaledDeltaTime, -1f, 1f);
+        }
+        else
+        {
+            axis = Mathf.Clamp01(Mathf.Abs(axis) - 3 * Time.unscaledDeltaTime) * Mathf.Sign(axis);
+        }
     }
 }
