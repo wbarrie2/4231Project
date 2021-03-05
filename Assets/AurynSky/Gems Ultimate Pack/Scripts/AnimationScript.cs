@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AnimationScript : MonoBehaviour {
-
+public class AnimationScript : MonoBehaviour 
+{
     public bool isRotating = false;
     public bool isFloating = false;
     public bool isScaling = false;

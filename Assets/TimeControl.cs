@@ -1,22 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 public class TimeControl : MonoBehaviour
 {
-
     AudioSource audioData;
     public AudioSource music;
     public AudioClip slowClip;
     public AudioClip fastClip;
-    bool beginSlow = false;
+    public GameObject colorFilter;
+    PostProcessVolume volume;
+
+    ChromaticAberration chromaLayer = null;
+    ColorGrading colorLayer = null;
+
     void Start()
     {
         audioData = GetComponent<AudioSource>();
+        volume = colorFilter.GetComponent<PostProcessVolume>();
+        volume.profile.TryGetSettings(out colorLayer);
+        volume.profile.TryGetSettings(out chromaLayer);
     }
 
     void Update()
     {
+        chromaLayer.intensity.value = -Time.timeScale + 1;
+        colorLayer.hueShift.value = ((Time.timeScale * 180) - 180);
+
+        if (Time.timeScale > 0 && Time.timeScale < .25)
+        {
+            colorLayer.saturation.value = ((Time.timeScale * 400) - 100);
+        }
+
         if (Input.GetKeyDown("e"))
         {
             if (Time.timeScale == 1)
@@ -24,7 +40,6 @@ public class TimeControl : MonoBehaviour
                 StartCoroutine(LerpTime(.1f, 1f, 0f));
                 audioData.clip = slowClip;
                 audioData.Play();
-                music.Pause();
             }
             else if (Time.timeScale == 0)
             {
@@ -32,7 +47,6 @@ public class TimeControl : MonoBehaviour
                 StartCoroutine(LerpTime(.9f, 1f, 1f));
                 audioData.clip = fastClip;
                 audioData.Play();
-                music.UnPause();
             }
         }
     }
@@ -45,10 +59,10 @@ public class TimeControl : MonoBehaviour
         {
             i += (1 / _timeToTake) * Time.deltaTime;
             Time.timeScale = Mathf.Lerp(startTimeScale, _lerpTimeTo, i);
-            print(Time.timeScale);
             yield return null;
+            music.pitch = Time.timeScale;
         }
-        Debug.Log("Done");
         Time.timeScale = final;
+        music.pitch = final;
     }
 }

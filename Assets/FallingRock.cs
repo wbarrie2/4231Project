@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class FallingRock : MonoBehaviour
 {
-
     Vector3 rotationAngle;
     float rotationSpeed;
     void Start()
