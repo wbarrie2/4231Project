@@ -7,11 +7,11 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
 
     public float speed = 12f;
-    public float gravity = -9.81f;
     public float jumpHeight = 3f;
+    public float gravity = -9.81f;
+    public float groundDistance = 0.4f;
 
     public Transform groundCheck;
-    public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
     Vector3 velocity;
@@ -24,11 +24,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("b"))
-        {
-            Debug.Log(x);
-        }
-
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)

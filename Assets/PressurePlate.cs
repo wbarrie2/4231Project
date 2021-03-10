@@ -57,6 +57,7 @@ public class PressurePlate : MonoBehaviour
         } else if (activated < 0)
         {
             activated = 0;
+            flipLights(false);
             door.position = new Vector3(originalX, door.position.y, door.position.z);
             transform.position = new Vector3(transform.position.x, originalY, transform.position.z);
         }
@@ -65,12 +66,6 @@ public class PressurePlate : MonoBehaviour
         {
             activated = 5;
         }
-
-        plateLightOff.SetActive(activated == 0 ? true : false);
-        plateLightOn.SetActive(!plateLightOff.activeSelf);
-
-        doorLightOff.SetActive(activated == 0 ? true : false);
-        doorLightOn.SetActive(!doorLightOff.activeSelf);
     }
 
     void OnTriggerEnter(Collider coll)
@@ -78,10 +73,20 @@ public class PressurePlate : MonoBehaviour
         activated = 10;
         transform.position = new Vector3(transform.position.x, movePlateTo, transform.position.z);
         inTrigger = true;
+        flipLights(true);
     }
 
     void OnTriggerExit(Collider coll)
     {
         inTrigger = false;
+    }
+
+    void flipLights(bool input)
+    {
+        plateLightOn.SetActive(input);
+        plateLightOff.SetActive(!input);
+
+        doorLightOn.SetActive(input);
+        doorLightOff.SetActive(!input);
     }
 }
