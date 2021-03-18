@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/InTempleOne.unity
     guid: c9e234cc8d535d84090fc0419dbb9676
   - enabled: 1
-    path: Assets/LoadingSceneOne.unity
-    guid: ec4b7370aa9c2504da746502a2198a8a
+    path: Assets/Scenes/InTempleTwo.unity
+    guid: 03a1b91b99ec3e1488d95683192c3e69
   m_configObjects: {}
