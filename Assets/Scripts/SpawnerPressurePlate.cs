@@ -15,7 +15,6 @@ public class SpawnerPressurePlate : MonoBehaviour
     //Plate Variables
 
     public GameObject block;
-    public Vector3 blockSpawn;
     //Block Variables
 
     void Start()
@@ -25,13 +24,13 @@ public class SpawnerPressurePlate : MonoBehaviour
 
     void Update()
     {
-        if (activated >= 5)
-        {
 
-        }
-        else
+        if (activated < 5)
         {
-
+            if (transform.position.y < originalY)
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y + plateMoveSpeed * Time.deltaTime, transform.position.z);
+            }
         }
 
         if (activated > 0)
@@ -54,10 +53,10 @@ public class SpawnerPressurePlate : MonoBehaviour
     void OnTriggerEnter(Collider coll)
     {
         transform.position = new Vector3(transform.position.x, movePlateTo, transform.position.z);
-        block.GetComponent<PickUp>().grabbed = false;
         activated = 10;
         inTrigger = true;
         FlipLights(true);
+        block.GetComponent<DissolveScript>().StartDissolve();
     }
 
     void OnTriggerExit(Collider coll)

@@ -11,6 +11,6 @@ public class DestScript : MonoBehaviour
 
     void Update()
     {
-       inWall = Physics.CheckBox(physicsBox.position, boxSize, physicsBox.rotation, groundMask);
+        inWall = Physics.CheckBox(physicsBox.position, boxSize, physicsBox.rotation, groundMask);
     }
 }

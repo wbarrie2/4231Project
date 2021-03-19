@@ -63,4 +63,9 @@ public class PlayerMovement : MonoBehaviour
             axis = Mathf.Clamp01(Mathf.Abs(axis) - 3 * Time.unscaledDeltaTime) * Mathf.Sign(axis);
         }
     }
+
+    public Vector3 GetVelocity()
+    {
+        return controller.velocity;
+    }
 }
