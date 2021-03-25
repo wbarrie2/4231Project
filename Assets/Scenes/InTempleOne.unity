@@ -10568,6 +10568,9 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  boxMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!143 &1010784972
 CharacterController:
   m_ObjectHideFlags: 0
@@ -17151,7 +17154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f36c80676c431846a2d2b12f7b4c331, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: SampleScene
+  level: InTempleTwo
   fade: {fileID: 1260531355}
 --- !u!65 &1612103649
 BoxCollider:
@@ -21796,7 +21799,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSpeed: 100
   playerBody: {fileID: 1010784973}
-  sensitivity: 10
 --- !u!81 &2092555708
 AudioListener:
   m_ObjectHideFlags: 0
