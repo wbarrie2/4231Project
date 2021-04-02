@@ -8,9 +8,11 @@ public class DissolveScript : MonoBehaviour {
     bool dissolving = false;
     float amount = 0;
     public Transform spawnPoint;
+    public bool randomColor = false;
+    public bool canBeGrabbed = true;
 
     void Start() {
-        mat = GetComponent<Renderer>().material;
+        mat = GetComponent<Renderer>().material;        
     }
 
     void Update() {
@@ -21,7 +23,10 @@ public class DissolveScript : MonoBehaviour {
             {
                 dissolving = false;
                 amount = 0;
-                GetComponent<PickUp>().grabbed = false;
+                if (canBeGrabbed)
+                {
+                    GetComponent<PickUp>().grabbed = false;
+                }
                 transform.position = spawnPoint.position;
             }
             else
@@ -34,6 +39,10 @@ public class DissolveScript : MonoBehaviour {
 
     public void StartDissolve()
     {
+        if (randomColor)
+        {
+            mat.SetColor("_DissolveColor", new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f)));
+        }
         dissolving = true;
     }
 }

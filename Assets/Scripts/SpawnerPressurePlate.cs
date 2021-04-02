@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnerPressurePlate : MonoBehaviour
 {
+    public bool usePlateLight = true;
     public GameObject plateLightOn;
     public GameObject plateLightOff;
     public float movePlateTo;
@@ -66,7 +67,10 @@ public class SpawnerPressurePlate : MonoBehaviour
 
     void FlipLights(bool input)
     {
-        plateLightOn.SetActive(input);
-        plateLightOff.SetActive(!input);
+        if (usePlateLight)
+        {
+            plateLightOn.SetActive(input);
+            plateLightOff.SetActive(!input);
+        }
     }
 }

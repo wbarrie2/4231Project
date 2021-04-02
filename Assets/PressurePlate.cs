@@ -8,12 +8,13 @@ public class PressurePlate : MonoBehaviour
     public GameObject doorLightOn;
     public GameObject doorLightOff;
     public Transform door;
-    public float moveDoorTo;
     public float doorMoveSpeed;
-    float originalX;
+    public Vector3 moveDoorTo;
+    Vector3 doorStart;
+    Vector3 applyForce;
     DoorCheck doorCheck;
     //Door Variables
-
+   
     public GameObject plateLightOn;
     public GameObject plateLightOff;
     public float movePlateTo;
@@ -26,39 +27,51 @@ public class PressurePlate : MonoBehaviour
     
     void Start()
     {
-        originalX = door.position.x;
+        doorStart = door.position;
         originalY = transform.position.y;
         doorCheck = doorClosingBox.GetComponent<DoorCheck>();
+        applyForce = new Vector3(moveDoorTo.x - doorStart.x, moveDoorTo.y - doorStart.y, moveDoorTo.z - doorStart.z);
+        AdjustForce();
     }
 
     void Update()
     {
         if (activated >= 5)
         {
-            if (door.position.x > moveDoorTo && doorCheck.detection == 1)
+            if (door.position != moveDoorTo)
             {
-                door.position = new Vector3(door.position.x - doorMoveSpeed * Time.deltaTime, door.position.y, door.position.z);
+                door.Translate(applyForce * doorMoveSpeed * Time.deltaTime);
+
+                if (Vector3.Distance(door.position, moveDoorTo) < 0.1)
+                {
+                    door.position = moveDoorTo;
+                }
             }
-        } else
+        } 
+        else if (doorCheck.detection == 1)
         {
-            if (door.position.x < originalX && doorCheck.detection == 1)
+            if (door.position != doorStart)
             {
-                door.position = new Vector3(door.position.x + doorMoveSpeed * Time.deltaTime, door.position.y, door.position.z);
+                door.Translate(applyForce * -doorMoveSpeed * Time.deltaTime);
+                if (Vector3.Distance(door.position, doorStart) < 0.1)
+                {
+                    door.position = doorStart;
+                }
             }
-            if (transform.position.y < originalY && doorCheck.detection == 1)
+            if (transform.position.y < originalY)
             {
-                transform.position = new Vector3(transform.position.x, transform.position.y + plateMoveSpeed * Time.deltaTime, transform.position.z);
+                transform.Translate(Vector3.up * plateMoveSpeed * Time.deltaTime);
             }
         }
 
         if (activated > 0)
         {
             activated -= activationScale * Time.deltaTime * doorCheck.detection;
-        } else if (activated < 0)
+        } 
+        else if (activated < 0)
         {
             activated = 0;
-            flipLights(false);
-            door.position = new Vector3(originalX, door.position.y, door.position.z);
+            FlipLights(false);
             transform.position = new Vector3(transform.position.x, originalY, transform.position.z);
         }
 
@@ -73,7 +86,7 @@ public class PressurePlate : MonoBehaviour
         activated = 10;
         transform.position = new Vector3(transform.position.x, movePlateTo, transform.position.z);
         inTrigger = true;
-        flipLights(true);
+        FlipLights(true);
     }
 
     void OnTriggerExit(Collider coll)
@@ -81,12 +94,20 @@ public class PressurePlate : MonoBehaviour
         inTrigger = false;
     }
 
-    void flipLights(bool input)
+    void FlipLights(bool input)
     {
         plateLightOn.SetActive(input);
         plateLightOff.SetActive(!input);
 
         doorLightOn.SetActive(input);
         doorLightOff.SetActive(!input);
+    }
+
+    void AdjustForce()
+    {
+        float newX = applyForce.x == 0 ? 0 : Mathf.Sign(applyForce.x);
+        float newY = applyForce.y == 0 ? 0 : Mathf.Sign(applyForce.y);
+        float newZ = applyForce.z == 0 ? 0 : Mathf.Sign(applyForce.z);
+        applyForce = new Vector3(newX, newY, newZ);
     }
 }
