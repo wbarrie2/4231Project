@@ -31,7 +31,7 @@ public class RigidTest : MonoBehaviour
         if (_inputs != Vector3.zero)
             transform.forward = _inputs;
 
-        if (Input.GetButtonDown("Jump") && _isGrounded)
+        if (Input.GetButtonDown("Jump") && _isGrounded & Time.timeScale > 0)
         {
             _body.AddForce(Vector3.up * Mathf.Sqrt(JumpHeight * -2f * Physics.gravity.y), ForceMode.VelocityChange);
         }
