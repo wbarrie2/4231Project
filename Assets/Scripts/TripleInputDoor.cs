@@ -5,10 +5,11 @@ using UnityEngine;
 public class TripleInputDoor : MonoBehaviour
 {
     public GameObject doorClosingBox;
-    public float moveDoorTo;
+    public Vector3 moveDoorTo;
     public float doorMoveSpeed;
-    float originalZ;
+    Vector3 doorStart;
     DoorCheck doorCheck;
+    Vector3 applyForce;
     //Door Variables
 
     public int activationScale;
@@ -20,8 +21,10 @@ public class TripleInputDoor : MonoBehaviour
 
     void Start()
     {
-        originalZ = transform.position.z;
+        doorStart = transform.position;
         doorCheck = doorClosingBox.GetComponent<DoorCheck>();
+        applyForce = new Vector3(moveDoorTo.x - doorStart.x, moveDoorTo.y - doorStart.y, moveDoorTo.z - doorStart.z);
+        AdjustForce();
     }
 
     void Update()
@@ -42,18 +45,42 @@ public class TripleInputDoor : MonoBehaviour
             activated = 0;
         }
 
-        if (activated >= 5)
+        //if (activated >= 5)
         {
-            if (transform.position.z > moveDoorTo && doorCheck.detection == 1)
+            //if (transform.position.z > moveDoorTo && doorCheck.detection == 1)
             {
-                transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - doorMoveSpeed * Time.deltaTime);
+                //transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - doorMoveSpeed * Time.deltaTime);
             }
         }
-        else
+        //else
         {
-            if (transform.position.z < originalZ && doorCheck.detection == 1)
+           // if (transform.position.z < originalZ && doorCheck.detection == 1)
             {
-                transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + doorMoveSpeed * Time.deltaTime);
+               // transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + doorMoveSpeed * Time.deltaTime);
+            }
+        }
+
+        if (activated >= 5)
+        {
+            if (transform.position != moveDoorTo)
+            {
+                transform.Translate(applyForce * doorMoveSpeed * Time.deltaTime);
+
+                if (Vector3.Distance(transform.position, moveDoorTo) < 0.1)
+                {
+                    transform.position = moveDoorTo;
+                }
+            }
+        }
+        else if (doorCheck.detection == 1)
+        {
+            if (transform.position != doorStart)
+            {
+                transform.Translate(applyForce * -doorMoveSpeed * Time.deltaTime);
+                if (Vector3.Distance(transform.position, doorStart) < 0.1)
+                {
+                    transform.position = doorStart;
+                }
             }
         }
 
@@ -64,7 +91,6 @@ public class TripleInputDoor : MonoBehaviour
         else if (activated < 0)
         {
             activated = 0;
-            transform.position = new Vector3(transform.position.x, transform.position.y, originalZ);
         }
     }
 
@@ -76,5 +102,13 @@ public class TripleInputDoor : MonoBehaviour
                 CrossTrigger.GetComponent<BlockTriggerZone>().InTrigger() &&
                 ArrowTrigger.GetComponent<BlockTriggerZone>().InTrigger()
             );
+    }
+
+    void AdjustForce()
+    {
+        float newX = applyForce.x == 0 ? 0 : Mathf.Sign(applyForce.x);
+        float newY = applyForce.y == 0 ? 0 : Mathf.Sign(applyForce.y);
+        float newZ = applyForce.z == 0 ? 0 : Mathf.Sign(applyForce.z);
+        applyForce = new Vector3(newX, newY, newZ);
     }
 }

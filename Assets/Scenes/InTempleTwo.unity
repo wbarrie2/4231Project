@@ -2671,6 +2671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18ab8d97085ec3a44bfe30088777746d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usePlateLight: 1
   plateLightOn: {fileID: 554040800}
   plateLightOff: {fileID: 776740897}
   movePlateTo: -48.39
@@ -11857,6 +11858,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 1147331397}
+  randomColor: 0
+  canBeGrabbed: 1
 --- !u!65 &778157891
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12951,6 +12954,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 668399527}
+  randomColor: 0
+  canBeGrabbed: 1
 --- !u!65 &856615303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19044,6 +19049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18ab8d97085ec3a44bfe30088777746d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usePlateLight: 1
   plateLightOn: {fileID: 1052145787}
   plateLightOff: {fileID: 1253294532}
   movePlateTo: -48.39
@@ -20970,6 +20976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18ab8d97085ec3a44bfe30088777746d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usePlateLight: 1
   plateLightOn: {fileID: 1788025979}
   plateLightOff: {fileID: 1030177743}
   movePlateTo: -48.39
@@ -22737,7 +22744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorClosingBox: {fileID: 1452202895}
-  moveDoorTo: 498.99
+  moveDoorTo: {x: 1.25, y: -56.1, z: 507}
   doorMoveSpeed: 5
   activationScale: 3
   SunTrigger: {fileID: 35725450}
@@ -29031,7 +29038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1722120753}
-  level: SampleScene
+  level: InTempleThree
   fade: {fileID: 1012348849}
   layer:
     serializedVersion: 2
@@ -30104,6 +30111,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 2146191840}
+  randomColor: 0
+  canBeGrabbed: 1
 --- !u!65 &1943772546
 BoxCollider:
   m_ObjectHideFlags: 0

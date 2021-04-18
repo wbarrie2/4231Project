@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InTempleTwo.unity
     guid: 03a1b91b99ec3e1488d95683192c3e69
+  - enabled: 1
+    path: Assets/Scenes/InTempleThree.unity
+    guid: e2701a9057611f048927a6138708d344
+  - enabled: 1
+    path: Assets/Scenes/InTempleFour.unity
+    guid: 3c8d63196376132409489a91b84422d3
   m_configObjects: {}

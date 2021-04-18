@@ -30816,7 +30816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1311958748}
-  level: InTempleThree
+  level: InTempleFour
   fade: {fileID: 1725495146}
   layer:
     serializedVersion: 2
