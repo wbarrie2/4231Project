@@ -5,6 +5,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
+    public AudioSource soundEffect;
+
+    AudioClip terrainClip;
+    AudioClip groundClip;
 
     public float speed = 12f;
     public float jumpHeight = 3f;
@@ -12,8 +16,9 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
 
     public Transform groundCheck;
-    public LayerMask groundMask;
-    public LayerMask boxMask;
+    LayerMask groundMask;
+    LayerMask boxMask;
+    LayerMask terrainMask;
 
     Vector3 velocity;
     Vector3 move;
@@ -22,12 +27,29 @@ public class PlayerMovement : MonoBehaviour
     private float z;
 
     bool isGrounded = false;
+    bool onTerrain = false;
+    bool onGround = false;
+
+    void Start()
+    {
+        groundMask = LayerMask.GetMask("Ground");
+        boxMask = LayerMask.GetMask("Box");
+        terrainMask = LayerMask.GetMask("Terrain");
+
+        terrainClip = Resources.Load<AudioClip>("Grass");
+        groundClip = Resources.Load<AudioClip>("Concrete");
+    }
 
     void Update()
     {
-        isGrounded = 
-            Physics.CheckSphere(groundCheck.position, groundDistance, groundMask) ||
-            Physics.CheckSphere(groundCheck.position, groundDistance, boxMask);
+        onTerrain = Physics.CheckSphere(groundCheck.position, groundDistance, terrainMask);
+        onGround =
+            (
+                Physics.CheckSphere(groundCheck.position, groundDistance, groundMask) ||
+                Physics.CheckSphere(groundCheck.position, groundDistance, boxMask)
+            );
+
+        isGrounded = onGround || onTerrain;
 
         if (isGrounded && velocity.y < 0)
         {
@@ -49,6 +71,33 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.unscaledDeltaTime;
 
         controller.Move(velocity * Time.unscaledDeltaTime);
+
+        if (move.x != 0 && move.z != 0 && isGrounded && Time.timeScale > .5)
+        {
+            if (onTerrain)
+            {
+                if (soundEffect.clip != terrainClip)
+                {
+                    soundEffect.clip = terrainClip;
+                }
+            }
+            else if (onGround)
+            {
+                if (soundEffect.clip != groundClip)
+                {
+                    soundEffect.clip = groundClip;
+                }
+            }
+
+            if (!soundEffect.isPlaying)
+            {
+                soundEffect.Play();
+            }
+        }
+        else
+        {
+            soundEffect.Pause();
+        }
     }
     private void GetSmoothAxisRaw(string name, ref float axis)
     {

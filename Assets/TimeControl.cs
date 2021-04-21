@@ -9,6 +9,8 @@ public class TimeControl : MonoBehaviour
     AudioSource audioData;
     public AudioSource music;
     public AudioClip slowClip;
+    public AudioClip starClip;
+    public AudioClip worldClip;
     public AudioClip fastClip;
     public GameObject colorFilter;
     public RawImage stopWatchArm;
@@ -21,6 +23,7 @@ public class TimeControl : MonoBehaviour
 
     float countdown = 12;
     bool loading = false;
+    int random;
 
     void Start()
     {
@@ -50,8 +53,26 @@ public class TimeControl : MonoBehaviour
             if (Input.GetKeyDown("e") && countdown > 5)
             {
                 StartCoroutine(LerpTime(.1f, 1f, 0f));
-                audioData.clip = slowClip;
+
+                random = Random.Range(0, 100);
+                audioData.pitch = 1;
+
+                if (random < 5)
+                {
+                    audioData.clip = starClip;
+                }
+                else if (random >= 95)
+                {
+                    audioData.clip = worldClip;
+                }
+                else
+                {
+                    audioData.clip = slowClip;
+                    audioData.pitch = 1.3f;
+                }
                 audioData.Play();
+
+                //Random chance to play an alternate time stop sound effect (Easter Egg)
             }
             /**
              * If the player presses E AND time is currently moving at full speed
@@ -79,6 +100,7 @@ public class TimeControl : MonoBehaviour
                 Time.timeScale = 0.1f;
                 StartCoroutine(LerpTime(.9f, 1f, 1f));
                 audioData.clip = fastClip;
+                audioData.pitch = 1.3f;
                 audioData.Play();
             }
             /**
@@ -126,6 +148,15 @@ public class TimeControl : MonoBehaviour
 
     void UpdateUI(bool flip)
     {
+        if (countdown > 4)
+        {
+            stopWatchText.color = new Color32(0, 255, 5, 255);
+        }
+        else
+        {
+            stopWatchText.color = new Color32(255, 255, 255, 255);
+        }
+
         if (flip)
         {
             stopWatchText.text = (Mathf.Floor(countdown)).ToString();

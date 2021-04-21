@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 150
@@ -658,6 +662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -748,6 +756,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -1145,7 +1157,7 @@ Transform:
   - {fileID: 1306142134}
   - {fileID: 875084418}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &24331950
 PrefabInstance:
@@ -1157,6 +1169,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -1633,6 +1649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -1724,6 +1744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -1812,7 +1836,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53959344}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.046811998, y: 0, z: -0.7727595}
+  m_LocalPosition: {x: -0.046811998, y: -1.1799998, z: -0.7727595}
   m_LocalScale: {x: 0.09535566, y: 0.0056076357, z: 0.16650428}
   m_Children: []
   m_Father: {fileID: 1278558260}
@@ -1999,6 +2023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -2079,7 +2107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63899235}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.046811998, y: -6, z: -0.7727595}
+  m_LocalPosition: {x: -0.046811998, y: -7.18, z: -0.7727595}
   m_LocalScale: {x: 0.09535566, y: 0.0056076357, z: 0.16650428}
   m_Children: []
   m_Father: {fileID: 1278558260}
@@ -2237,6 +2265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -2383,6 +2415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -2453,6 +2489,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -2717,6 +2757,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -3033,6 +3077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -3108,6 +3156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground Path Corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 55ea637da60fa214b98e9c50f87d082b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 55ea637da60fa214b98e9c50f87d082b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3170,6 +3222,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -3623,6 +3679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 113
@@ -3761,6 +3821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -3823,6 +3887,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -4474,6 +4542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -4699,6 +4771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 116
@@ -4856,6 +4932,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -5021,6 +5101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -5150,6 +5234,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -5339,6 +5427,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -5603,6 +5695,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -6097,6 +6193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -6167,6 +6267,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -6474,7 +6578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6834,6 +6938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -6992,6 +7100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 131
@@ -7062,6 +7174,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -7154,6 +7270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -7216,6 +7336,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -7842,6 +7966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 104
@@ -7912,6 +8040,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -8481,6 +8613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -8705,6 +8841,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -9395,6 +9535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 129
@@ -9485,6 +9629,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -9884,6 +10032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -10155,6 +10307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 137
@@ -10292,6 +10448,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -10768,6 +10928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 138
@@ -10834,7 +10998,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &523423505
 Transform:
@@ -11014,7 +11178,7 @@ Transform:
   - {fileID: 1537427228}
   - {fileID: 3020524}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &524957739
 PrefabInstance:
@@ -11099,6 +11263,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -11655,6 +11823,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -12237,6 +12409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 55
@@ -12366,6 +12542,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -12875,6 +13055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -12965,6 +13149,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -13203,6 +13391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -13437,7 +13629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13529,6 +13721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -13551,7 +13747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13754,7 +13950,7 @@ GameObject:
   - component: {fileID: 669269803}
   - component: {fileID: 669269802}
   - component: {fileID: 669269801}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13817,7 +14013,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &671533946
 PrefabInstance:
@@ -14030,6 +14226,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -14367,6 +14567,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -14846,6 +15050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -14916,6 +15124,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -15141,6 +15353,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -15881,6 +16097,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -16772,7 +16992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17452,6 +17672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -17590,6 +17814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -17680,6 +17908,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -18405,6 +18637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -18615,7 +18851,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &889694363
 PrefabInstance:
@@ -18709,7 +18945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18935,6 +19171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -19026,6 +19266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 147
@@ -19096,6 +19340,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 61c8a689e2f4dd4498d21ea2897f74b4, type: 3}
       propertyPath: m_Name
       value: Ground Path One
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 61c8a689e2f4dd4498d21ea2897f74b4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 61c8a689e2f4dd4498d21ea2897f74b4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19384,6 +19632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -19542,6 +19794,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Idol 6 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2fa3fb20b986114f94dfa86ff76242a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2fa3fb20b986114f94dfa86ff76242a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2fa3fb20b986114f94dfa86ff76242a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -19695,6 +19955,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -19853,6 +20117,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -20150,6 +20418,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -20623,6 +20895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 87
@@ -20828,6 +21104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -20919,6 +21199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -21009,6 +21293,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -21147,6 +21435,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -21412,6 +21704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -21570,6 +21866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -21660,6 +21960,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -22062,6 +22366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -22251,7 +22559,7 @@ RectTransform:
   - {fileID: 2003626283}
   - {fileID: 872321037}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -22459,6 +22767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -22529,6 +22841,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -22816,6 +23132,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -23127,6 +23447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -23284,6 +23608,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -23490,6 +23818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 85
@@ -23627,6 +23959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 143
@@ -23689,6 +24025,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -23887,6 +24227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blocks And Bricks 4
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e31dae40992728d438b3161b4ecda39c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e31dae40992728d438b3161b4ecda39c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -24023,6 +24367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 114
@@ -24114,6 +24462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -24204,6 +24556,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -24365,6 +24721,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -24883,6 +25243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 84
@@ -25012,6 +25376,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -25251,7 +25619,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1186938033
 PrefabInstance:
@@ -25331,6 +25699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -25393,6 +25765,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -25545,7 +25921,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1213774944
 PrefabInstance:
@@ -25691,6 +26067,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
       propertyPath: m_Name
       value: Gate 4 Hallway x3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
       propertyPath: m_RootOrder
@@ -25913,6 +26293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 133
@@ -26065,7 +26449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26638,6 +27022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -26728,6 +27116,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -26886,6 +27278,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -27282,7 +27678,7 @@ Transform:
   - {fileID: 1942275337}
   - {fileID: 1977721290}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1278878957
 PrefabInstance:
@@ -27451,6 +27847,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -28347,7 +28747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28562,6 +28962,133 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1346354824}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1354450210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1354450212}
+  - component: {fileID: 1354450211}
+  m_Layer: 0
+  m_Name: Sound Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1354450211
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354450210}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1354450212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354450210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1355191022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29133,7 +29660,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1386795260}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.046811998, y: -3, z: -0.7727595}
+  m_LocalPosition: {x: -0.046811998, y: -4.18, z: -0.7727595}
   m_LocalScale: {x: 0.09535566, y: 0.0056076357, z: 0.16650428}
   m_Children: []
   m_Father: {fileID: 1278558260}
@@ -29448,6 +29975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -29605,6 +30136,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -29943,6 +30478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -30033,6 +30572,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -30446,6 +30989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate 4 Hallway x3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -30532,6 +31079,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
       propertyPath: m_Name
       value: Gate 4 Hallway x3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
       propertyPath: m_RootOrder
@@ -30901,7 +31452,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1482320010
 PrefabInstance:
@@ -30913,6 +31464,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -31072,6 +31627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 118
@@ -31230,6 +31789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -31320,6 +31883,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -31689,6 +32256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate 4 Hallway x3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
       propertyPath: m_RootOrder
       value: 154
@@ -31925,6 +32496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 101
@@ -31995,6 +32570,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -32192,6 +32771,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -32693,6 +33276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -32931,7 +33518,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1555527447
 PrefabInstance:
@@ -33010,6 +33597,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -33101,6 +33692,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -33260,6 +33855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -33389,6 +33988,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -33728,7 +34331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 31ebd80d3f64ab74b98898947c055382, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 31ebd80d3f64ab74b98898947c055382, type: 3}
       propertyPath: m_RootOrder
@@ -33880,6 +34483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -33985,7 +34592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34467,6 +35074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -34557,6 +35168,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -34783,6 +35398,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -35176,6 +35795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -35266,6 +35889,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -35539,6 +36166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -35601,6 +36232,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -35692,6 +36327,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -35831,6 +36470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -35893,6 +36536,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -36142,6 +36789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 120
@@ -36233,6 +36884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 163
@@ -36303,6 +36958,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -36531,6 +37190,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -36894,6 +37557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate 4 Hallway x3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3d2f17137ce3da6469207010686d933f, type: 3}
       propertyPath: m_RootOrder
       value: 151
@@ -36989,6 +37656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -37079,6 +37750,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -37257,6 +37932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -37347,6 +38026,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b2fa3fb20b986114f94dfa86ff76242a, type: 3}
       propertyPath: m_Name
       value: Idol 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2fa3fb20b986114f94dfa86ff76242a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b2fa3fb20b986114f94dfa86ff76242a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b2fa3fb20b986114f94dfa86ff76242a, type: 3}
       propertyPath: m_RootOrder
@@ -37536,7 +38223,7 @@ Transform:
   - {fileID: 810700694}
   - {fileID: 496769212}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1732095189
 PrefabInstance:
@@ -37548,6 +38235,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -38156,6 +38847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -38634,6 +39329,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   music: {fileID: 1619553891}
   slowClip: {fileID: 8300000, guid: 70f5bada822535945a47b5291cf630fb, type: 3}
+  starClip: {fileID: 8300000, guid: 9447382a240990d4e922104a3447117f, type: 3}
+  worldClip: {fileID: 8300000, guid: b257353a282fe0248b7ff913710aed5e, type: 3}
   fastClip: {fileID: 8300000, guid: 7c437a7a16322f34aa81fdbc1e10e5dc, type: 3}
   colorFilter: {fileID: 1153521776}
   stopWatchArm: {fileID: 1590794117}
@@ -38652,17 +39349,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1764111178}
+  soundEffect: {fileID: 1354450211}
   speed: 12
   jumpHeight: 3
   gravity: -19.62
   groundDistance: 0.4
   groundCheck: {fileID: 1432266909}
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 64
-  boxMask:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!143 &1764111178
 CharacterController:
   m_ObjectHideFlags: 0
@@ -38689,7 +39381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764111174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.05, y: 14.74, z: 752.73}
+  m_LocalPosition: {x: -6.26, y: -75.51, z: 777.2}
   m_LocalScale: {x: 1.2, y: 2, z: 1.2}
   m_Children:
   - {fileID: 1153521779}
@@ -38697,7 +39389,7 @@ Transform:
   - {fileID: 1791349847}
   - {fileID: 1432266909}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1766440357
 PrefabInstance:
@@ -38899,6 +39591,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -39243,7 +39939,7 @@ MonoBehaviour:
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
   m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
+  m_ShowCustomSorter: 1
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
@@ -39458,6 +40154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 125
@@ -39563,7 +40263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39788,6 +40488,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -40148,6 +40852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 99
@@ -40438,6 +41146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Tile 4x4 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -40546,7 +41258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869636201}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.046811998, y: -9, z: -0.7727595}
+  m_LocalPosition: {x: -0.046811998, y: -10.18, z: -0.7727595}
   m_LocalScale: {x: 0.09535566, y: 0.0056076357, z: 0.16650428}
   m_Children: []
   m_Father: {fileID: 1278558260}
@@ -40637,6 +41349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 145
@@ -40707,6 +41423,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_Name
       value: Sig Sag  Pyramid (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
@@ -40905,6 +41625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -40995,6 +41719,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -41540,6 +42268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 139
@@ -41844,7 +42576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942275336}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.046811998, y: -12, z: -0.7727595}
+  m_LocalPosition: {x: -0.046811998, y: -13.18, z: -0.7727595}
   m_LocalScale: {x: 0.09535566, y: 0.0056076357, z: 0.16650428}
   m_Children: []
   m_Father: {fileID: 1278558260}
@@ -42290,6 +43022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -42653,7 +43389,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977721289}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.046811998, y: -15, z: -0.7727595}
+  m_LocalPosition: {x: -0.046811998, y: -16.18, z: -0.7727595}
   m_LocalScale: {x: 0.09535566, y: 0.0056076357, z: 0.16650428}
   m_Children: []
   m_Father: {fileID: 1278558260}
@@ -42743,6 +43479,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_Name
       value: Wall Tile 4x4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
       propertyPath: m_RootOrder
@@ -42995,6 +43735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 160
@@ -43065,6 +43809,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -44270,6 +45018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Round Pilar (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -44360,6 +45112,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -44511,7 +45267,7 @@ Transform:
   - {fileID: 1052365681}
   - {fileID: 1625890166}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2059168936
 PrefabInstance:
@@ -44590,6 +45346,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -44749,6 +45509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag 1x4 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
       value: 144
@@ -44901,7 +45665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 904a1fa2352d8914895e01692b1cc16a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45193,6 +45957,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_Name
       value: Sig Sag 1x4 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 064b3bc91fd633b41829407f0a6b0706, type: 3}
       propertyPath: m_RootOrder
@@ -45685,6 +46453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -45972,6 +46744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sig Sag  Pyramid (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d14aa16cba6fbb849addc4054627712f, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -46034,6 +46810,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
@@ -46326,6 +47106,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_Name
       value: Round Pilar (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65ce4d6909c7a774ca8008339abfbda1, type: 3}
       propertyPath: m_RootOrder
