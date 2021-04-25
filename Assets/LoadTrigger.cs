@@ -25,7 +25,7 @@ public class LoadTrigger : MonoBehaviour
     {
         if (Physics.CheckBox(position, scale, rotation, layer))
         {
-            fade.GetComponent<LevelFade>().fadeOut();
+            fade.GetComponent<LevelFade>().FadeOut(.5f);
             player.GetComponent<TimeControl>().resetTime();
             StartCoroutine(LoadLevelCoroutine());
         }

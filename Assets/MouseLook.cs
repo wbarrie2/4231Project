@@ -7,6 +7,8 @@ public class MouseLook : MonoBehaviour
     public float mouseSpeed = 150f;
     public Transform playerBody;
     float xRotation = 0f;
+    float mouseX;
+    float mouseY;
 
     void Start()
     {
@@ -14,8 +16,8 @@ public class MouseLook : MonoBehaviour
     }
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSpeed * Time.unscaledDeltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSpeed * Time.unscaledDeltaTime;
+        mouseX = Input.GetAxis("Mouse X") * mouseSpeed * Time.unscaledDeltaTime;
+        mouseY = Input.GetAxis("Mouse Y") * mouseSpeed * Time.unscaledDeltaTime;
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);

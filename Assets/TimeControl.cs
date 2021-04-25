@@ -50,7 +50,7 @@ public class TimeControl : MonoBehaviour
 
         if (Time.timeScale == 1)
         {
-            if (Input.GetKeyDown("e") && countdown > 5)
+            if (Input.GetKeyDown("e") && countdown > 4)
             {
                 StartCoroutine(LerpTime(.1f, 1f, 0f));
 
@@ -71,12 +71,11 @@ public class TimeControl : MonoBehaviour
                     audioData.pitch = 1.3f;
                 }
                 audioData.Play();
-
                 //Random chance to play an alternate time stop sound effect (Easter Egg)
             }
             /**
              * If the player presses E AND time is currently moving at full speed
-             * AND the stop watch time is greater than 5:
+             * AND the stop watch time is greater than 4:
              * Begin the slow down effect
              */
 
@@ -148,22 +147,29 @@ public class TimeControl : MonoBehaviour
 
     void UpdateUI(bool flip)
     {
-        if (countdown > 4)
-        {
-            stopWatchText.color = new Color32(0, 255, 5, 255);
-        }
-        else
-        {
-            stopWatchText.color = new Color32(255, 255, 255, 255);
-        }
-
         if (flip)
         {
             stopWatchText.text = (Mathf.Floor(countdown)).ToString();
+            if (countdown >= 5)
+            {
+                stopWatchText.color = new Color32(0, 255, 0, 255);
+            }
+            else
+            {
+                stopWatchText.color = new Color32(255, 0, 0, 255);
+            }
         }
         else
         {
             stopWatchText.text = (Mathf.Ceil(countdown)).ToString();
+            if (countdown > 4)
+            {
+                stopWatchText.color = new Color32(0, 255, 0, 255);
+            }
+            else
+            {
+                stopWatchText.color = new Color32(255, 0, 0, 255);
+            }
         }
         stopWatchArm.transform.rotation = Quaternion.Euler(0, 0, (countdown / 12 * 360) + 45);
     }

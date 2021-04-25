@@ -10,11 +10,21 @@ public class LevelFade : MonoBehaviour
     {
         fade.enabled = true;
         fade.canvasRenderer.SetAlpha(1.0f);
-        fade.CrossFadeAlpha(0, 2, false);
+        fade.CrossFadeAlpha(0, 3, true);
+        StartCoroutine(DisableCoroutine());
     }
 
-    public void fadeOut()
+    public void FadeOut(float time)
     {
-        fade.CrossFadeAlpha(1, 1, false);
+        fade.enabled = true;
+        fade.canvasRenderer.SetAlpha(0);
+        fade.CrossFadeAlpha(1, time, true);
+    }
+
+    IEnumerator DisableCoroutine()
+    {
+        yield return new WaitForSeconds(2);
+
+        fade.enabled = false;
     }
 }

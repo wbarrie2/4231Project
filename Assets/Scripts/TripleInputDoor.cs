@@ -45,21 +45,6 @@ public class TripleInputDoor : MonoBehaviour
             activated = 0;
         }
 
-        //if (activated >= 5)
-        {
-            //if (transform.position.z > moveDoorTo && doorCheck.detection == 1)
-            {
-                //transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - doorMoveSpeed * Time.deltaTime);
-            }
-        }
-        //else
-        {
-           // if (transform.position.z < originalZ && doorCheck.detection == 1)
-            {
-               // transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + doorMoveSpeed * Time.deltaTime);
-            }
-        }
-
         if (activated >= 5)
         {
             if (transform.position != moveDoorTo)
